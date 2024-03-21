@@ -58,7 +58,8 @@ text-align: center;
 
 
 /* add a background color when the input get focu */
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, 
+input[type=password]:focus {
     background-color: #ddd;
     outline: none;
 }
@@ -71,7 +72,7 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     opacity: 0.9;
 }
 
@@ -84,15 +85,14 @@ button:hover{
     background-color: #f44336;
 } */
 
- .signin-btn{
+ /* .signin-btn{
     float: right;
-    /* width: 20%; */
-    
-}
+    width: 50%;    
+} */
 
 /* Adding padding to container elements */
 .container {
-    padding: 16px;
+    padding: 56px;
     color: green;
 }
 
