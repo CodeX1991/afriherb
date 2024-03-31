@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Login page{% endblock %}
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="/static/styles/login.css">
+{% endblock %}
+{% block body %}
+{{ super() }}
+<form method="POST">
+    <div class="container">
+        <h2>Welcome to afriherb</h2>
+        <h1>login</h1>
+        
+        <hr>
+
+        <label for="email"><b>Email </b>
+        <input type="email" placeholder="Enter-email" name="email" required>
+    </label>
+
+
+        <label for="psw"><b>Password</b>
+        <input type="password" placeholder="Enter-Password" name="password" required>
+    </label>
+
+
+        <label>
+           <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+        <p>By signing in you agree to our <href="#" style="color:dodgerblue">Terms & Privacy</a> </p>
+
+        <div class="clearfix">
+            <!-- <button type="button" class="cancelbtn">Cancel</button> -->
+            <button type="submit" class="signin-btn">Login</button>
+            <!--form-end-->
+        </div>
+    </div>
+</form>
+{% endblock %}

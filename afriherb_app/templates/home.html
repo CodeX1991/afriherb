@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %} afriherb homepage{% endblock %}
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="/static/styles/home.css">
+{% endblock %}
+{% block body %}
+{{ super() }}
+<nav>
+    <ul>
+        <li>
+            <a class="active" href="{{ url_for('auth.afriherb') }}">afriherb</a>
+        </li>
+        <li style="float:right">
+            <a href="{{ url_for('auth.login') }}">login</a>
+        </li>
+        <li style="float:right">
+            <a href="{{ url_for('auth.signup') }}">signup</a>
+        </li>
+        <li style="float:right">
+            <a href="{{ url_for('auth.newsletter') }}">newletter</a>
+        </li>
+    </ul>
+</nav>
+<div class="div">
+    <section>
+        <h3 class="center">Morigan {{name}}</h3>
+        <p>The Morigan leaf is use for treating ulcer.</p>
+    </section>
+
+    <section>
+        <h3 class="center">Morigan</h3>
+        <p>The Morigan leaf is use for treating ulcer.</p>
+    </section>
+
+    <section>
+        <h3 class="center">Morigan</h3>
+        <p>The Morigan leaf is use for treating ulcer.</p>
+    </section>
+</div>
+<div class="footer">
+    <footer>contact</footer>
+</div>
+{% endblock %}
