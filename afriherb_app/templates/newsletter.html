@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}afriherb newsletter{% endblock %}
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="/static/styles/newsletter.css">
+{% endblock %}
+{% block body %}
+    <div class="container">
+        <h1>Welcome to Afriherb NewsLetter</h1>
+        <P>Stay updated with the latest news and updates.</P>
+        <img src="/static/images/morrigan.jpg" alt="Morrigan">
+        <p>Subscribe now to receive our weekly newsletter.</p>
+
+        <h1>Welcome to Our Newsletter</h1>
+        <p>Stay updated with the latest news and updates.</p>
+        <div class="news">
+            <h2>Latest News</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit velit at felis consequat, nec congue leo fermentum.</p>
+            <p>Updated: March 15, 2024, 10:00 AM</p>
+        <a href="{{ url_for('auth.signup') }}" class="btn">Subscribe</a>
+        <!-- //<a href="#" class="btn">Read More</a> -->
+
+    </div>
+{% endblock %}
