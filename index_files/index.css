@@ -1,0 +1,266 @@
+body {
+    background-image: url(garlic_leaf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: white;
+    height: 50px;
+    border-radius: 32px;
+    filter: contrast(200%);
+    filter: opacity(90%);
+    overflow: hidden;
+    position: fixed;
+    top: 4px;
+    width: 100%;
+}
+
+.navbar a {
+    display: block;
+    float: right;
+    border-radius: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+.btn {
+    border-radius: 32px;
+    font-size: 12pt;
+    height: 32px;
+    width: 82px;
+    color: black;
+    border: 0;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color:  yellowgreen;
+    transition: 0.7s;
+}
+
+.btn:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    transition: 0.7s;
+}
+
+.btn:active {
+    background-color: red;
+}
+
+.logo {
+    float: left;
+    border-radius: 32px;
+}
+
+#icon {
+    width: 70px;
+    height: 24px;
+}
+
+.subnavbtn {
+    float: right;
+    border-radius: 32px;
+    font-size: 12pt;
+    background: inherit;
+    height: 32px;
+    width: 82px;
+    color: black;
+    border: 0;
+    margin-top: 10px;
+}
+
+.subnavbtn:hover {
+    background-color: yellowgreen;
+}
+
+.content {
+    background-color: whitesmoke;
+    filter: opacity(80%);
+    height: 200px;
+    width: 200px;
+    margin-top: 4%;
+    margin-left: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: green;
+    border-radius: 32px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+
+.flex-container {
+    margin-top: 8px;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 16px;
+    filter: opacity(90%);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.flex-container div {
+    height: 380px;
+    width: 310px;
+    background-color: white;
+    align-self: center;
+    border-radius: 16px;
+    border: 2px solid whitesmoke;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.flex-container2 {
+    margin-top: 8px;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 16px;
+    filter: opacity(90%);
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.flex-container2 div {
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    align-self: center;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+p {
+    color: black;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.footer {
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    filter: contrast(200%);
+    filter: opacity(80%);
+    overflow: hidden;
+    text-align: center;
+}
+
+.img {
+    height: 180px;
+    width: 290px;
+    margin-right: 10px;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.img_sign {
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+
+h3 {
+    margin-left: 12px;
+}
+
+.col {
+    display: flex;
+    margin-right: 70%;
+    margin-left: 28%;  
+}
+
+.flex-container3 {
+    margin-top: 8px;
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 16px;
+    filter: opacity(90%);
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.flex-container3 div {
+    height: 535px;
+    width: 400px;
+    background-color: white;
+    align-self: center;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+}
+
+.container {
+    margin-top: 8px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    filter: opacity(100%);
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.container div {
+    height: 115px;
+    width: 180px;
+    background-color: white;
+    align-self: center;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.box { 
+    height: 200px; 
+  } 
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    background-color: yellowgreen;
+  }
