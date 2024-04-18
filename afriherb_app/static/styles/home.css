@@ -1,40 +1,55 @@
-.div {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 10%;
+/* Styling the top navbar1 */
+.navbar1 {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 99%;
+  }
+  .navbar1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 50px;
 }
-
-ul {
+.navbar1 li a {
+    display: block;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    color: black;
+    line-height: 0em;
+    
+}
+  
+/* Styling the top navbar2 */
+.navbar2 {
+    margin-top: 60px;
+  }
+.navbar2 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    height: 30px;
+    height: 50px;
 }
-
-li {
-    float: left;
-    border-right: 1px solid #bbb;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-li a {
+.navbar2 li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 24px 16px;
     text-decoration: none;
     color: white;
     line-height: 0em;
 }
 
-.center {
-    text-align: center;
+li {
+    float: left;
 }
-
+li:last-child {
+    border-right: none;
+}
 li a:hover:not(.active) {
     background-color: lightgray;
 }
@@ -42,6 +57,27 @@ li a:hover:not(.active) {
     background-color: green;
 }
 
+/* Centering styling */
+.center {
+    text-align: center;
+}
+
+/* Page content styling */
+.div_top {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    background-color: azure;
+}
+.div {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+    width: auto;
+    background-color: azure;
+}
+
+/* Footer styling */
 .footer {
     position: fixed;
     left: 0;
@@ -49,18 +85,34 @@ li a:hover:not(.active) {
     width: 100%;
     background-color: #333;
     color: white;
-    height: 30px;
-    line-height: 2em;
+    height: 100px;
+    line-height: 3em;
     text-align: center;
 }
 
+/* Section styling */
 section {
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 50px;
+    height: auto;
+    width: auto;
     display: inline-block;  
     background-color: whitesmoke;
+    border-radius: 4px;
     
 }
 
-.
+/* Image adjustment */
+.img_section {
+    height: 200px;
+    width: 250px;
+    border-radius: 4px;
+}
+
+/* Resize an icon */
+.icon {
+    width: 40px;
+    height: 55px;
+    padding-bottom: 30px;
+}

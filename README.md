@@ -1,0 +1,4 @@
+# afriherb: *herb is wealth..*
+
+## Introduction
+The Afriherb web application is an innovative solution aimed at revolutionizing the alternative medicine sector of the African continent by facilitating seamless herbal medicine delivery to patients, and herbal doctors also known as native doctor-patient interaction, enhancing and promoting the use of alternative medicine. The web application is an e-commerce website where African traditional doctor can sell their verified product, customers can view products, and many more as we scale. The project is driven by the need to address the challenges of finding an African-based e-commerce medicine store that solely focuses on selling traditional medicine and puts traditional medical doctors on the global face. I have faced problems of not getting a certified website like Jumia or AliExpress where I can chat with a traditional doctor and get drugs delivered to me.

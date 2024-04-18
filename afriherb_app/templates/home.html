@@ -2,14 +2,18 @@
 {% block title %} afriherb homepage{% endblock %}
 {% block head %}
 {{ super() }}
+
 <link rel="stylesheet" type="text/css" href="/static/styles/home.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/afriherb_icon.css">
 {% endblock %}
 {% block body %}
 {{ super() }}
-<nav>
+
+<!--The first naviagtion bar-->
+<div class="navbar1">
     <ul>
         <li>
-            <a class="active" href="{{ url_for('auth.afriherb') }}">afriherb</a>
+            <a style="color: green;" href="{{ url_for('auth.afriherb') }}"><b>afriherb</b></a>
         </li>
         <li style="float:right">
             <a href="{{ url_for('auth.login') }}">login</a>
@@ -21,23 +25,70 @@
             <a href="{{ url_for('auth.newsletter') }}">newletter</a>
         </li>
     </ul>
-</nav>
-<div class="div">
+</div>
+
+<!--The second naviagtion bar-->
+<div class="navbar2">
+    <ul>
+        <li>
+            <a href="{{ url_for('auth.afriherb') }}"><b>Home</b></a>
+        </li>
+        <li style="float:right">
+            <a href="#">Resource</a>
+        </li>
+        <li style="float:right">
+            <a href="#">About</a>
+        </li>
+        <li style="float:right">
+            <a href="">Buy</a>
+        </li>
+    </ul>
+</div>
+
+<!--First Page content-->
+<div class="div_top">
     <section>
-        <h3 class="center">Morigan {{name}}</h3>
+        <img src="/static/images/morrigan.jpg" alt="afriherb icon" class="img_section">
+        <h3 class="center">Morigan {{name}}</h3><hr>
         <p>The Morigan leaf is use for treating ulcer.</p>
     </section>
 
     <section>
-        <h3 class="center">Morigan</h3>
-        <p>The Morigan leaf is use for treating ulcer.</p>
+        <img src="/static/images/laali_leaf.jpeg" alt="afriherb icon" class="img_section">
+        <h3 class="center">Laali</h3><hr>
+        <p>
+            The Laali leaf is use for treating cancer.
+        </p>
     </section>
 
     <section>
-        <h3 class="center">Morigan</h3>
-        <p>The Morigan leaf is use for treating ulcer.</p>
+        <img src="/static/images/ginger_leaf.jpg" alt="afriherb icon" class="img_section">
+        <h3 class="center">Ginger</h3><hr>
+        <p>The Ginger is a good source of antibiotics.</p>
     </section>
 </div>
+
+<!--Second Page Content-->
+<div class="div">
+    <section>
+        <img src="/static/images/garlic_leaf.jpg" alt="afriherb icon" class="img_section">
+        <h3 class="center">Garlic</h3><hr>
+        <p>The Garlic leaf is strong antibiotics..</p>
+    </section>
+
+    <section>
+        <img src="/static/images/shawashop_leaf.jpg" alt="afriherb icon" class="img_section">
+        <h3 class="center">Soursop</h3><hr>
+        <p>The Soursop leaf is use for treating ulcer.</p>
+    </section>
+
+    <section>
+        <img src="/static/images/Clove_leaf.jpg" alt="afriherb icon" class="img_section">
+        <h3 class="center">Cloves</h3><hr>
+        <p>Cloves are use for treating toothhaches.</p>
+    </section>
+</div>
+<div style="height: 100px;"></div>
 <div class="footer">
     <footer>contact</footer>
 </div>
