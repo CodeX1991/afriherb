@@ -1,5 +1,10 @@
 .alert {
     text-align: center;
     background-color: #E8D1D5;
-    padding: 2px;
+    top: auto;
+}
+
+.text_padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
